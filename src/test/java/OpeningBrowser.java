@@ -20,9 +20,21 @@ public class OpeningBrowser {
 
        // safariDriver.get("https://www.selenium.dev");
 
-        ChromeDriver chrome = new ChromeDriver();
+        //ChromeDriver chrome = new ChromeDriver();
 
-        chrome.get("https://naraiman.com/");
+      //  chrome.get("https://naraiman.com/");
+
+       // chrome.close();
+
+       // chrome.quit(); ///quit means, Once we clicked this one, this will close all the Tabs!!!!
+
+        ChromeDriver chromeDriver = new ChromeDriver();
+         chromeDriver.get("https://www.facebook.com/");
+
+         chromeDriver.close();
+        // chromeDriver.quit();
+
+
 
 
 
