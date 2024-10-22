@@ -29,16 +29,27 @@ public class UsingIdLocators {
 //        signInElement.click();
 //////////////////////////////
 
-        ChromeDriver chromeDriver = new ChromeDriver();
+//        ChromeDriver chrome = new ChromeDriver();
+//
+//        chrome.get("https://retail.tekschool-students.com/");
+//        chrome.manage().window().maximize();
+//
+//        By orderLink = By.id("orderLink");
+//
+//        WebElement oderElement = chrome.findElement(orderLink);
+//
+//        oderElement.click();
 
-        chromeDriver.get("https://retail.tekschool-students.com/");
-        chromeDriver.manage().window().maximize();
 
-        By orderLink = By.id("orderLink");
+        ChromeDriver driver = new ChromeDriver();
+        driver.get("https://retail.tekschool-students.com/");
 
-        WebElement oderElement = chromeDriver.findElement(orderLink);
+        driver.manage().window().maximize();
 
-        oderElement.click();
+       By accountLink = By.id("accountLink");
+
+       WebElement accountElement = driver.findElement(accountLink);
+       accountElement.click();
 
 
 
