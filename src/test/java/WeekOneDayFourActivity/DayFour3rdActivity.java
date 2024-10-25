@@ -18,7 +18,7 @@ public class DayFour3rdActivity {
 
         Thread.sleep(2000);
 
-        By signInLocator =By.className("ant-card-head-title");
+        By signInLocator =By.linkText("Sign in");
         WebElement signInElement = driver.findElement(signInLocator);
         signInElement.click();
 
@@ -30,7 +30,7 @@ public class DayFour3rdActivity {
 
         Thread.sleep(1000);
 
-        By passwordLocator = By.className("password");
+        By passwordLocator = By.id("password");
         WebElement passElement = driver.findElement(passwordLocator);
         passElement.sendKeys("wrongpassword12");
 
