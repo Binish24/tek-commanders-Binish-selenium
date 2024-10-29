@@ -1,4 +1,4 @@
-package Week1ActivityDay3;
+package ActivityDayThree.Week1ActivityDay3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

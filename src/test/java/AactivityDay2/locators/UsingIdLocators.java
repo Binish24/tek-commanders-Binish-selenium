@@ -1,4 +1,4 @@
-package locators;
+package AactivityDay2.locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

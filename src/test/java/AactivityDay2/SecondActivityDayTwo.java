@@ -1,3 +1,5 @@
+package AactivityDay2;
+
 public class SecondActivityDayTwo {
 
     public static void main(String[] args) {
