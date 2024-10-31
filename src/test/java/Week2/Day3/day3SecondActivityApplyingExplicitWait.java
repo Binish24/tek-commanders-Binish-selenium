@@ -30,5 +30,8 @@ public class day3SecondActivityApplyingExplicitWait {
         By updateButtonLocator = By.cssSelector("button#personalUpdateBtn");
         WebElement updateButtonElement = driver.findElement(updateButtonLocator);
         updateButtonElement.click();
+
+
+        driver.quit();
     }
 }
