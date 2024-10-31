@@ -38,6 +38,7 @@ public class reviewOfDay2 {
       By errorMessageLocator = By.cssSelector("div.error");
       WebElement errorMessageElement = driver.findElement(errorMessageLocator);
       errorMessageElement.getText();
+        System.out.println(errorMessageElement);
 
       Thread.sleep(1000);
 

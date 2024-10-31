@@ -21,11 +21,11 @@ public class DayFourSecondActivity {
 
 
         EdgeDriver edgeDriver = new EdgeDriver();
-       edgeDriver.get("https://dev.retail.tekschool-students.com/");
+        edgeDriver.get("https://dev.retail.tekschool-students.com/");
         edgeDriver.manage().window().maximize();
 
         String Title = driver.getTitle();
-       System.out.println(Title);
+        System.out.println(Title);
 
         edgeDriver.quit();
 
