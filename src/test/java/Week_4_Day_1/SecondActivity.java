@@ -25,7 +25,7 @@ public class SecondActivity {
         Thread.sleep(2000);
 
         List<WebElement>  interestCheckBoxes = driver.findElements(
-                By.xpath("//div[@class ='flex gap-3']//input"));
+                By.xpath("//div[@id ='firstQuestion']//input"));
 
         Thread.sleep(2000);
 
